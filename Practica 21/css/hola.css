@@ -11,7 +11,7 @@
 	
 	#nav ul{
 		display: flex;
-		margin-top: 42px;
+		margin-top: 50px;
 	}
 
 	#nav li{
@@ -25,15 +25,19 @@
 		float: left;
 		width: 160px;
 		margin-top: 10px;
-	background: #ff833b;}
+	background: #ff833b;margin-top: 22px;}
 	#sidebar li {
-		margin-top: 5px;
-	}
-	#sidebar a, #nav a{
+		margin-top: 10px;
+	list-style: none;}
+	#nav a{
 		text-decoration: none;
-color: #0645ad;
+color: #0641ad;
 background: none;
 	}
+
+#sidebar a {text-decoration: none;
+    color: #ffffff;
+    background: none;}
 
 	#sidebar a:visited, #sidebar a:visited{
 		color: #0645ad;
@@ -43,15 +47,19 @@ background: none;
 		text-decoration: underline;
 	}
 
+	#sidebar ul{
+		padding-left: 20px;
+	}
+
 	#logo img{
-		width: 133px;
+		width: 180px;
 		height: auto;
 	}
 	
 	#main {
 		margin-left: 180px;
 		margin-right: 200px;
-	background: #ffcb05;}
+	background: #ffcb05;margin-top: 22px;}
 	#main h1, #main h2, #main p{
 
 		padding: 0 10px 0 10px;
@@ -62,7 +70,7 @@ background: none;
 		float:right;
 		width: 180px;
 		background-color: #4c376a;
-		}
+		margin-top: 22px;}
 		
 		#secondary * {
 			color: #FFF
