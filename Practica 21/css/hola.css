@@ -1,0 +1,87 @@
+#body {
+		background: url(images/bg/bg_column.gif) repeat-y right top;
+	}
+	#banner{
+		display: flex;
+	}
+	#logo{
+		padding: 10px;
+	}
+
+	
+	#nav ul{
+		display: flex;
+		margin-top: 42px;
+	}
+
+	#nav li{
+		
+		margin-left: 32px;
+		position: relative;
+		list-style: none;
+	}
+	
+	#sidebar { 
+		float: left;
+		width: 160px;
+		margin-top: 10px;
+	background: #ff833b;}
+	#sidebar li {
+		margin-top: 5px;
+	}
+	#sidebar a, #nav a{
+		text-decoration: none;
+color: #0645ad;
+background: none;
+	}
+
+	#sidebar a:visited, #sidebar a:visited{
+		color: #0645ad;
+		
+	}
+	#sidebar a:hover, #nav a:hover{
+		text-decoration: underline;
+	}
+
+	#logo img{
+		width: 133px;
+		height: auto;
+	}
+	
+	#main {
+		margin-left: 180px;
+		margin-right: 200px;
+	background: #ffcb05;}
+	#main h1, #main h2, #main p{
+
+		padding: 0 10px 0 10px;
+
+	}
+	
+	#secondary {
+		float:right;
+		width: 180px;
+		background-color: #4c376a;
+		}
+		
+		#secondary * {
+			color: #FFF
+		}
+		
+		#secondary h3 {
+			font-size: 1.5em;
+			background: #73AFB7;
+			padding:3px 5px 3px 10px; /* Margen interno */
+		}
+		
+		#secondary h4 {
+			font-size: 1.2em;
+			margin: 10px 10px 5px 10px; /* Margen externo*/ 
+		}
+		
+		#secondary p {
+			font-size: 1.2em;
+			margin: 3px 10px 10px 10px;
+			line-height: 110%;
+		}
+
