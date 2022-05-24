@@ -3,7 +3,7 @@
 	}
 	#banner{
 		display: flex;
-	}
+	background: #ffcb05;}
 	#logo{
 		padding: 10px;
 	}
@@ -29,13 +29,16 @@
 	#sidebar li {
 		margin-top: 10px;
 	list-style: none;}
+
+	
 	#nav a{
 		text-decoration: none;
 color: #0641ad;
 background: none;
 	}
 
-#sidebar a {text-decoration: none;
+#sidebar a, #sidebar h3 {
+	text-decoration: none;
     color: #ffffff;
     background: none;}
 
@@ -59,7 +62,7 @@ background: none;
 	#main {
 		margin-left: 180px;
 		margin-right: 200px;
-	background: #ffcb05;margin-top: 22px;}
+	/* background: #ffcb05; */margin-top: 22px;}
 	#main h1, #main h2, #main p{
 
 		padding: 0 10px 0 10px;

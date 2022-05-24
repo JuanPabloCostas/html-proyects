@@ -1,0 +1,44 @@
+<link href="start.css" rel="stylesheet" type="text/css" /> 
+<style type="text/css">
+    /* Codigo CSS para layout*/ 
+    #body {
+        background: url(images/bg/bg_column.gif) repeat-y right top;
+  }
+    
+    #sidebar { 
+        float: left;
+        width: 160px;
+        margin-top: 10px;
+  }
+    
+    #main {
+        margin-left: 180px;
+        margin-right: 200px;
+  }
+    
+    #secondary {
+        float:right;
+        width: 180px;
+        background-color: #294E56;
+  }
+        
+        #secondary * {
+            color: #FFF
+  }
+        
+        #secondary h3 {
+            font-size: 1.5em;
+            background: #73AFB7;
+            padding:3px 5px 3px 10px; /* Margen interno */
+  }
+        
+        #secondary h4 {
+            font-size: 1.2em;
+            margin: 10px 10px 5px 10px; /* Margen externo*/ 
+  }
+        
+        #secondary p {
+            font-size: 1.2em;
+            margin: 3px 10px 10px 10px;
+            line-height: 110%;
+  }
